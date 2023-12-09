@@ -10,7 +10,7 @@ app = Flask(__name__)
 # key = os.getenv("OPENAI_API_KEY")
 # openai.api_key = key
 
-openai.api_key = "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"
+openai.api_key = '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'
 
 dietary_restrictions = [
     "Gluten-Free",
