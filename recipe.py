@@ -6,11 +6,9 @@ from dotenv import load_dotenv
 app = Flask(__name__)
 
 # Securely fetch the API key using the dotenv library
-# load_dotenv()
-# key = os.getenv("OPENAI_API_KEY")
-# openai.api_key = key
-
-openai.api_key = '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'
+load_dotenv()
+key = os.getenv("OPENAI_API_KEY")
+openai.api_key = key
 
 dietary_restrictions = [
     "Gluten-Free",
